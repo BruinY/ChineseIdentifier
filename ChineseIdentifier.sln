@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseIdentifier", "ChineseIdentifier\ChineseIdentifier.csproj", "{B46F378F-6334-40B5-94E1-7DED2A557F29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestHarness", "TestHarness", "{CFBC2354-70DA-44FB-BABA-47881D5ACDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseIdentifier.TestHarness", "ChineseIdentifier.TestHarness\ChineseIdentifier.TestHarness.csproj", "{DD67C9C6-48DF-4919-A714-E01B5923EF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseIndentifier.Tests", "ChineseIndentifier.Tests\ChineseIndentifier.Tests.csproj", "{3A65DF8C-AD09-42F2-8619-DD79DE16F866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,19 @@ Global
 		{B46F378F-6334-40B5-94E1-7DED2A557F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B46F378F-6334-40B5-94E1-7DED2A557F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B46F378F-6334-40B5-94E1-7DED2A557F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD67C9C6-48DF-4919-A714-E01B5923EF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD67C9C6-48DF-4919-A714-E01B5923EF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD67C9C6-48DF-4919-A714-E01B5923EF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD67C9C6-48DF-4919-A714-E01B5923EF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A65DF8C-AD09-42F2-8619-DD79DE16F866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A65DF8C-AD09-42F2-8619-DD79DE16F866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A65DF8C-AD09-42F2-8619-DD79DE16F866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A65DF8C-AD09-42F2-8619-DD79DE16F866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD67C9C6-48DF-4919-A714-E01B5923EF2A} = {CFBC2354-70DA-44FB-BABA-47881D5ACDB2}
 	EndGlobalSection
 EndGlobal
