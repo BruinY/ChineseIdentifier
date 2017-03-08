@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
 
+/// <summary>
+/// Character sets taken from https://github.com/jpatokal/script_detector
+/// </summary>
 namespace ChineseIdentifier
 {
     public static class Characters

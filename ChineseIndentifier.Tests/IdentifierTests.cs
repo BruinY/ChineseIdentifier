@@ -32,5 +32,14 @@ namespace ChineseIndentifier.Tests
 
             identifiedChineseType.ShouldBeEquivalentTo(ChineseType.Simplified);
         }
+
+        [TestCase("Some text")]
+        [TestCase("Other text")]
+        public void Given_String_With_Non_Chinese_Characters_Expect_It_Is_Reported_As_Unidentified(string input)
+        {
+            var identifiedChineseType = identifier.Identify(input);
+
+            identifiedChineseType.ShouldBeEquivalentTo(ChineseType.Unidentified);
+        }
     }
 }
