@@ -120,6 +120,12 @@
   <data name="Content" xml:space="preserve">
     <value>這是一些將顯示的文本</value>
   </data>
+  <data name="Grapes" xml:space="preserve">
+    <value>我喜歡葡萄</value>
+  </data>
+  <data name="Lorem" xml:space="preserve">
+    <value>另一方面，我們以正義的憤慨和不喜歡那些被那些因為慾望而蒙蔽的那一刻的快樂魅力所迷惑和挫敗的人，他們不能預見到隨之而來的痛苦和麻煩; 和同樣的責任屬於那些通過意志薄弱而失敗的人，這與通過勉強和痛苦的說法是一樣的。 這些情況是非常簡單和容易區分。 在一個自由的時間，當我們的選擇權力沒有受到限制，沒有什麼能阻止我們能夠做我們最喜歡做的事情，每一個快樂是歡迎，每一個疼痛避免。 但是在某些情況下，由於義務的索賠或商業的義務，經常發生的是，樂趣必須被拒絕和煩惱被接受。 聰明人因此在這些事情上總是堅持這種選擇原則：他拒絕快樂，以確保其他更大的快樂，或者他忍受痛苦，以避免更糟的疼痛</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>歡迎來到應用程序</value>
   </data>
